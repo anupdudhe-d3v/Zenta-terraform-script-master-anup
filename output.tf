@@ -26,11 +26,11 @@ output "bigquery_dataset_id" {
 
 
 output "project_id" {
-  value = google_project.this.project_id
+  value = module.new_project.project_id
 }
 
 output "project_number" {
-  value = google_project.this.number
+  value = module.new_project.project_number
 }
 
 

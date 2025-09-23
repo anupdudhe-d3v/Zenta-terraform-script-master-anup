@@ -43,7 +43,7 @@ module "vm2" {
 ##########################################
 module "cloudsql" {
   source                 = "./modules/cloudsql_mysql"
-  project_id             = module.new_project.project_idd
+  project_id             = module.new_project.project_id
   region                 = var.region
   instance_id            = var.db_instance_name
   db_version             = var.db_version
