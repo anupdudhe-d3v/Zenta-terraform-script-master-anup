@@ -32,6 +32,41 @@
 ├── provider.tf
 ├── terraform.tfvars
 └── variable.tf
-
-
 ```
+### terraform lifecycle commands
+```
+#Initialize Directory
+terraform init
+```
+### Format & Validate
+```
+terraform fmt
+terraform validate
+```
+### Plan Changes
+```
+terraform plan
+```
+### Apply Configuration
+```
+terraform apply
+terraform apply -auto-approve
+```
+### Inspect State
+```
+terraform show
+terraform state list
+terraform state show <resource_name>
+```
+### Destroy Infrastructure
+```
+terraform destroy
+terraform destroy -auto-approve
+```
+
+
+Notes:
+
+Terraform automatically loads terraform.tfvars or *.auto.tfvars.
+
+You can also use environment variables: TF_VAR_<var>=<value>
