@@ -33,9 +33,15 @@
 ├── terraform.tfvars
 └── variable.tf
 ```
-### terraform lifecycle commands
+### To install Terraform on your system, please follow the official instructions provided in the Terraform documentation.
 ```
-#Initialize Directory
+https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
+```
+
+### terraform lifecycle commands
+
+#### Initialize Directory
+```
 terraform init
 ```
 ### Format & Validate
